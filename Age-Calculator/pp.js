@@ -1,85 +1,29 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"
-    />
-    <link rel="stylesheet" href="styles.css" />
-    <title>Document</title>
-  </head>
-  <body>
-    <!-- navbar -->
-    <!-- <nav class="navbar" role="navigation" aria-label="main navigation">
-      <div class="navbar-brand">
-        <a class="button is-primary mt-2 ml-2 mb-2" href="#">Get Code</a>
-      </div>
-    </nav> -->
-    <div class="container mt-5">
-      <!-- Heading -->
-      <div class="notification is-primary ml-0">
-        <span class="is-size-2 has-text-left has-text-weight-bold"
-          >Age Calculator</span
-        >
-      </div>
+var btn = document.querySelector("#btn");
 
-      <!-- input fields -->
-      <div class="container notification ml-5 my-3">
-        <!-- birthdate -->
-        <div class="field">
-          <label class="label">Date of Birth</label>
-          <div class="columns is-mobile">
-            <div class="column">
-              <input
-                class="input is-small"
-                type="text"
-                placeholder="Date"
-                id="date"
-              />
-            </div>
-            <div class="column">
-              <input
-                class="input is-small"
-                type="text"
-                placeholder="Month"
-                id="month"
-              />
-            </div>
-            <div class="column">
-              <input
-                class="input is-small"
-                type="text"
-                placeholder="Year"
-                id="year"
-              />
-            </div>
-          </div>
-        </div>
-
-        <!-- output -->
-        <div
-          id="age"
-          class="has-text-centered is-size-5 has-text-weight-bold"
-        ></div>
-        <!-- button -->
-        <div class="control mt-5 has-text-centered">
-          <button
-            id="btn"
-            class="
-              button
-              is-primary is-fullwidth
-              has-text-weight-bold
-              is-size-5
-            "
-          >
-            Submit
-          </button>
-        </div>
-      </div>
-    </div>
-    {/* <script src="script.js"></script> */}
-  </body>
-</html>
+btn.addEventListener("click", () => {
+  var d1 = document.getElementById("date").value;
+  var m1 = document.getElementById("month").value;
+  var y1 = document.getElementById("year").value;
+  if (d1 == "" || m1 == "" || y1 == "") {
+    age.innerHTML = "Please enter all values";
+  } else {
+    var date = new Date();
+    var d2 = date.getDate();
+    var m2 = 1 + date.getMonth();
+    var y2 = date.getFullYear();
+    var month = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
+    if (d1 > d2) {
+      d2 = d2 + month[m2 - 1];
+      m2 = m2 - 1;
+    }
+    if (m1 > m2) {
+      m2 = m2 + 12;
+      y2 = y2 - 1;
+    }
+    var d = d2 - d1;
+    var m = m2 - m1;
+    var y = y2 - y1;
+    document.getElementById("age").innerHTML =
+      "Your Age is " + y + " Years " + m + " Months " + d + " Days";
+  }
+});
