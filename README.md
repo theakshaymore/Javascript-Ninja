@@ -1,3 +1,9 @@
 # Javascript-Ninja
 
 Javascript challenges
+
+See them live here.
+
+1.  [Age Calculator](https://peaceful-sinoussi-047550.netlify.app/).
+2.  [Change Background](https://priceless-meitner-857f50.netlify.app/).
+3.  [Translator](https://practical-murdock-02f8d8.netlify.app/).
