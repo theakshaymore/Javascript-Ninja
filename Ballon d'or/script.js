@@ -60,3 +60,10 @@ button.addEventListener("click", () => {
   courses.sort((a, b) => b.age - a.age);
   generateLIST();
 });
+
+var goatBtn = document.querySelector(".goat-btn");
+var msg = document.querySelector(".msg");
+
+goatBtn.addEventListener("click", () => {
+  goatBtn.innerHTML = "Messi is GOAT with 7 Ballon D'or";
+});
