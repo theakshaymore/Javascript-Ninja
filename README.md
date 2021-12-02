@@ -7,4 +7,4 @@ See them live here.
 1.  [Age Calculator](https://peaceful-sinoussi-047550.netlify.app/).
 2.  [Change Background](https://priceless-meitner-857f50.netlify.app/).
 3.  [Translator](https://practical-murdock-02f8d8.netlify.app/).
-4.  [Sort Cricketers](https://app.netlify.com/sites/quizzical-davinci-4581e3/overview).
+4.  [Sort Cricketers](https://quizzical-davinci-4581e3.netlify.app/).
