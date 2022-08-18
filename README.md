@@ -1,6 +1,6 @@
 # Javascript-Ninja
 
-Javascript challenges
+🥷 Javascript Projects 🧑‍🏫
 
 See them live here.
 
@@ -9,3 +9,4 @@ See them live here.
 3.  [Translator](https://practical-murdock-02f8d8.netlify.app/).
 4.  [Sort Cricketers](https://quizzical-davinci-4581e3.netlify.app/).
 5.  [Ballon D'or Winners](https://distracted-ardinghelli-abfa7f.netlify.app/).
+6.  [QR Code Generator](https://generateaqrcode.netlify.app/).
