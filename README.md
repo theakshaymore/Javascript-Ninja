@@ -1,6 +1,5 @@
-# 🥷 Javascript Projects 🧑‍
-
-------------------------------
+# 🥷 Javascript Projects 💻
+![JsJavascriptGIF](https://user-images.githubusercontent.com/45824962/185371421-a35da9b7-a44a-424e-b32b-93c0543f6da5.gif)
 
 See them live here:
 
