@@ -1,8 +1,8 @@
-# Javascript-Ninja
+# 🥷 Javascript Projects 🧑‍
 
-🥷 Javascript Projects 🧑‍🏫
+------------------------------
 
-See them live here.
+See them live here:
 
 1.  [Age Calculator](https://peaceful-sinoussi-047550.netlify.app/).
 2.  [Change Background](https://priceless-meitner-857f50.netlify.app/).
