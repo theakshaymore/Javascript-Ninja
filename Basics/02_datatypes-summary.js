@@ -27,3 +27,31 @@ const myFunction = function () {
 };
 
 console.log(typeof myArray);
+
+// ----------------------------------------------------
+
+//  Stack (Primitive), Heap (Non-Primitive)
+
+// Stack
+let valueOne = "Akshay";
+
+let valueTwo = valueOne;
+
+valueTwo = "Rohit";
+
+console.log(valueOne);
+console.log(valueTwo);
+
+// Heap
+
+let objOne = {
+  name: "Pedri",
+  age: 19,
+};
+
+let objTwo = objOne;
+
+objTwo.name = "Gavi";
+
+console.log(objOne.name);
+console.log(objTwo.name);
